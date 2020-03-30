@@ -35,6 +35,7 @@
 /*=====[Implementations of private functions]================================*/
 
 int main(int argc, char *argv[]) {
+<<<<<<< HEAD
     char cadena[128];
 
     if (AlejandroPermingeat(cadena, sizeof(cadena))) {
@@ -49,5 +50,14 @@ int main(int argc, char *argv[]) {
         printf("No se pudo serializar el alumno\r\n");
     }
 
+=======
+    char cadena[1024];
+
+    if (SerializarAlumnos(cadena, sizeof(cadena), ALUMNOS, CANTIDAD_ALUMNOS)) {
+        printf("Listado total de alumnos: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar un alumno\r\n");
+    }
+>>>>>>> 8a69a34d493059fe5a82c0492d27094c189f643e
     return 0;
 }

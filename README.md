@@ -21,3 +21,5 @@ Repositorio inicial para el Trabajo Practico 1 de la asignatura de Ingenieria de
     ```
 
 3. Confirmar los cambios, resolver los conflictos y subir los cambios al servidor.
+
+    static const struct alumno_s ESTEBAN_VOLENTINI = {
